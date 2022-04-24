@@ -1,45 +1,4 @@
-/* Template: Sync - Free Mobile App Landing Page HTML Template
-   Author: Inovatik
-   Created: Dec 2019
-   Description: Master CSS file
-*/
 
-/*****************************************
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Small Features
-06. Description 1
-07. Description 1 Details Lightbox
-08. Description 2
-09. Features
-10. Screenshots
-11. Testimonials
-12. Statistics
-13. Download
-14. Footer
-15. Copyright
-16. Back To Top Button
-17. Extra Pages
-18. Media Queries
-******************************************/
-
-/*****************************************
-Colors:
-- Backgrounds - light gray #f7fafd
-- Backgrounds - gray #e8eff6
-- Buttons - red #ff556e
-- Headings text, navbar links - black #333
-- Body text - dark gray #777
-******************************************/
-
-
-/******************************/
-/*     01. General Styles     */
-/******************************/
 body,
 html {
     width: 100%;
@@ -771,13 +730,24 @@ input[type='checkbox'] {
 	padding-top: 8rem;
 	padding-bottom: 3rem;
 	background-color: #f7fafd;
-	text-align: center;
+	/* text-align: center; */
+	height: 100vh;
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 10rem;
+	margin-left: 10rem;
+	margin-top: 5rem;
 }
+.header .text-container .tagline{
+	margin-bottom: 10rem;
+	margin-left: 2rem;
+	
+	/* margin-top: 5rem; */
+	font: "Open Sans", sans-serif;
+	
 
+}
 .header h1 {
 	margin-bottom: 1rem;
 }
@@ -1951,6 +1921,11 @@ a:hover.back-to-top {
 	}
 	/* end of extra pages */
 }
+.aboutus{
+	padding: 100px;
+	top: 100px;
+
+}
 /* end of min-width 992px */
 
 
@@ -2020,7 +1995,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-1 .text-container {
-		margin-top: 5rem;
+		margin-top: 10rem;
 		margin-left: 2.5rem;
 	}
 	/* end of description 1 */
@@ -2037,7 +2012,7 @@ a:hover.back-to-top {
 	.tabs .image-container {
 		margin-left: 2.5rem;
 		width: 31.0625rem;
-		height: 36.625rem;
+		height: 100vh;
 	}
 
 	.tabs .tabs-container {
